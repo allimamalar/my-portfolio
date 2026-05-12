@@ -37,24 +37,38 @@ h1, h2, h3 {
 }
 
 /* Navigation */
+/* UPDATED LOGO & NAVBAR CSS */
 .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 1.5rem 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(250, 249, 246, 0.8);
-    backdrop-filter: blur(10px);
+    padding: 10px 5%;
+    background: #ffffff;
+    position: sticky;
+    top: 0;
     z-index: 1000;
-    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Space between photo and name */
+}
+
+.nav-photo {
+    width: 40px;          /* Size of the circle */
+    height: 40px;
+    border-radius: 50%;   /* Makes it a perfect circle */
+    object-fit: cover;    /* Centers your face in the circle */
+    border: 2px solid #8CA07D; /* Matches your theme color */
 }
 
 .logo {
-    font-size: 1.5rem;
     font-weight: 800;
-    color: var(--accent-color-dark);
+    font-size: 1.2rem;
+    color: #333;
+    letter-spacing: -0.5px;
 }
 
 .nav-links {
