@@ -300,6 +300,56 @@ h1, h2, h3 {
     background-color: var(--accent-color);
 }
 
+/* NPTEL Elite Certificate Cards */
+.cert-card.nptel-elite {
+    position: relative;
+    border-left: 4px solid #8B1A1A;
+    text-align: left;
+    padding: 1.8rem 2rem 1.5rem;
+    background: linear-gradient(135deg, rgba(255,255,255,0.85), rgba(250,245,235,0.9));
+}
+
+.cert-card.nptel-elite:hover {
+    border-color: #6B1414;
+    background: linear-gradient(135deg, #fdf6ed, #f5ede0);
+}
+
+.cert-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #8B1A1A, #B22222);
+    color: #FFD700;
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    margin-bottom: 0.6rem;
+}
+
+.cert-card.nptel-elite h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+    color: #333;
+}
+
+.cert-score {
+    font-size: 0.82rem;
+    color: var(--text-light);
+    margin-top: 0.5rem;
+    line-height: 1.5;
+}
+
+.cert-score strong {
+    color: #8B1A1A;
+}
+
+.cert-meta {
+    font-size: 0.75rem;
+    color: #aaa;
+    margin-top: 0.3rem;
+    letter-spacing: 0.3px;
+}
 
 /* Projects */
 .projects-grid {
